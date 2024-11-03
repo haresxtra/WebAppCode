@@ -50,4 +50,4 @@ jobs:
           app-name: 'HaresWebApp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F56B798187624B6D9599EC917D44C664 }}
-          package: '*.jar'
+          package: '*.war'
